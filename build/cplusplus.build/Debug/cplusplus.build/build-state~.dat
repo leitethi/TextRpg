@@ -1,0 +1,54 @@
+Tcplusplus
+v7
+r0
+t351354983.842931
+cCheck dependencies
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/cplusplus/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/cplusplus.LinkFileList
+c000000004F4108E70000000000000073
+t1329662183
+s115
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/main.cpp
+c000000004F4108E70000000000000233
+t1329662183
+s563
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies351354983#351354983#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/cplusplus/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351354983.322206
+e351354983.842855
+r0
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+x/Users/Thiago/Documents/Allegro/cplusplus/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/Thiago/Documents/Allegro/cplusplus/main.cpp: In function 'int main(int, char* const*)':
+o/Users/Thiago/Documents/Allegro/cplusplus/main.cpp:15: error: 'cout' was not declared in this scope
+o/Users/Thiago/Documents/Allegro/cplusplus/main.cpp:15: error: 'endl' was not declared in this scope
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/cplusplus/main.cpp351354983#351354983#0(295"/Users/Thiago/Documents/Allegro/cplusplus/main.cpp: In function 'int main(int, char* const*)':/Users/Thiago/Documents/Allegro/cplusplus/main.cpp:15: error: 'cout' was not declared in this scope/Users/Thiago/Documents/Allegro/cplusplus/main.cpp:15: error: 'endl' was not declared in this scope2(4@37"'cout' was not declared in this scope351354983#95#100#0(6@50"/Users/Thiago/Documents/Allegro/cplusplus/main.cpp351354983#15#0#15#0#34"'*' was not declared in this scope0(4@37"'endl' was not declared in this scope351354983#195#100#0(6@50"/Users/Thiago/Documents/Allegro/cplusplus/main.cpp351354983#15#0#15#0#34"'*' was not declared in this scope0(0#0#50"/Users/Thiago/Documents/Allegro/cplusplus/main.cpp3907004821821025792#1360"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/main.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o1#
+
+CLd /Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus normal x86_64
+r0
+

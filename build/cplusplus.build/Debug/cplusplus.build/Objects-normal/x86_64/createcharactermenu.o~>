@@ -1,0 +1,6 @@
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp:16: error: prototype for 'void CreateCharacterMenu::showOptions(Game*)' does not match any in class 'CreateCharacterMenu'
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.h:19: error: candidate is: virtual void CreateCharacterMenu::showOptions()
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp:25: error: prototype for 'void CreateCharacterMenu::handleInput(Game*)' does not match any in class 'CreateCharacterMenu'
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.h:20: error: candidate is: virtual void CreateCharacterMenu::handleInput()
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp: In member function 'void CreateCharacterMenu::handleInput(Game*)':
+/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp:43: error: 'MainMenu' was not declared in this scope

@@ -1,0 +1,12 @@
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'std::list<Weapon*, std::allocator<Weapon*> > getArmors()':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:14: error: 'armors' was not declared in this scope
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'std::list<Weapon*, std::allocator<Weapon*> > getWeapons()':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:19: error: 'weapons' was not declared in this scope
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void addWeapon(Weapon*)':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:24: error: 'weapons' was not declared in this scope
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void addArmor(Weapon*)':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:29: error: 'armors' was not declared in this scope
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void sellWeapon(Weapon*)':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:34: error: 'weapons' was not declared in this scope
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void sellArmor(Armor*)':
+/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:39: error: 'armors' was not declared in this scope

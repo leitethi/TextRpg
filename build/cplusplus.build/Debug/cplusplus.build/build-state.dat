@@ -1,0 +1,530 @@
+Tcplusplus
+v7
+r0
+t351816356.040332
+cCheck dependencies
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/cplusplus/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o /Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o /Users/Thiago/Documents/Allegro/cplusplus/armor.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o /Users/Thiago/Documents/Allegro/cplusplus/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o /Users/Thiago/Documents/Allegro/cplusplus/game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o /Users/Thiago/Documents/Allegro/cplusplus/Item.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Users/Thiago/Documents/Allegro/cplusplus/GLOBALS.h
+c000000004F43BAFE0000000000000092
+t1329838846
+s146
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Game.cpp
+c000000004F42CB8400000000000000A5
+t1329777540
+s165
+i"Game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Game.h
+c000000004F42CB840000000000000090
+t1329777540
+s144
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Item.cpp
+c000000004F48126400000000000000A9
+t1330123364
+s169
+i"item.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Item.h
+c000000004F4813010000000000000161
+t1330123521
+s353
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Menus.cpp
+c000000004F42CCFC00000000000000A7
+t1329777916
+s167
+i"Menus.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/Menus.h
+c000000004F42CCFC0000000000000091
+t1329777916
+s145
+
+N/Users/Thiago/Documents/Allegro/cplusplus/armor.cpp
+c000000004F43E25400000000000001DD
+t1329848916
+s477
+i"armor.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/armor.h
+c000000004F43EEE500000000000001D1
+t1329852133
+s465
+i<iostream>
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus
+t1330123522
+s141992
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Game.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o
+t1330123522
+s46324
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Menus.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o
+t1329852144
+s51008
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/cplusplus.LinkFileList
+c000000004F48125500000000000002B7
+t1330123349
+s695
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/createcharactermenu.o
+t1329838982
+s79656
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/display.o
+t1329758402
+s3152
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o
+t1330123350
+s294900
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+t1330122860
+s102476
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/mainmenu.o
+t1329838982
+s79528
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menu.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menuoption.o
+t1329772429
+s73052
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menus.o
+t1329778195
+s1420
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/namecharactermenu.o
+t1329838982
+s79184
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o
+t1330121160
+s66528
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/untitled.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/vendor.o
+t2
+s0
+
+N/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o
+t1329963707
+s54348
+
+N/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp
+c000000004F43BB3D000000000000038F
+t1329838909
+s911
+i"createcharactermenu.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.h
+c000000004F43B91400000000000001A1
+t1329838356
+s417
+i<iostream>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/display.cpp
+c000000004F4280B700000000000000C7
+t1329758391
+s199
+i"display.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/display.h
+c000000004F4280C000000000000000D4
+t1329758400
+s212
+
+N/Users/Thiago/Documents/Allegro/cplusplus/game.cpp
+c000000004F4811620000000000004858
+t1330123106
+s18520
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/game.h
+c000000004F481018000000000000057A
+t1330122776
+s1402
+i<sstream>
+i<iostream>
+i<list>
+i<map>
+i<vector>
+i<time.h>
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/main.cpp
+c000000004F46C78100000000000000F7
+t1330038657
+s247
+i<iostream>
+i<time.h>
+i<list>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp
+c000000004F43B8D100000000000003D3
+t1329838289
+s979
+i"mainmenu.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h
+c000000004F43B8920000000000000168
+t1329838226
+s360
+i<iostream>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menu.cpp
+c000000004F43AC11000000000000015D
+t1329835025
+s349
+i"menu.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menu.h
+c000000004F43B0EA00000000000001B6
+t1329836266
+s438
+i<iostream>
+i<list>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp
+c000000004F428119000000000000028B
+t1329758489
+s651
+i"menu.h"
+i"menuoption.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menuoption.h
+c000000004F42813700000000000001FD
+t1329758519
+s509
+i<iostream>
+i"display.h"
+i"menu.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menus.cpp
+c000000004F42CCFC00000000000000A7
+t1329777916
+s167
+i"Menus.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/menus.h
+c000000004F42CCFC0000000000000091
+t1329777916
+s145
+
+N/Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp
+c000000004F43B9FA0000000000000338
+t1329838586
+s824
+i"namecharactermenu.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.h
+c000000004F43BB100000000000000199
+t1329838864
+s409
+i<iostream>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/player.cpp
+c000000004F4809A90000000000000AA7
+t1330121129
+s2727
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/player.h
+c000000004F46F83000000000000006DF
+t1330051120
+s1759
+i<iostream>
+i"weapon.h"
+i"armor.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/untitled.cpp
+c000000004F48117B00000000000000AD
+t1330123131
+s173
+i"untitled.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/untitled.h
+c000000004F4812050000000000000147
+t1330123269
+s327
+
+N/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp
+c000000004F43DBCB0000000000000208
+t1329847243
+s520
+i"vendor.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/vendor.h
+c000000004F43DB7C000000000000023C
+t1329847164
+s572
+
+N/Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp
+c000000004F45A2BB0000000000000471
+t1329963707
+s1137
+i"weapon.h"
+
+N/Users/Thiago/Documents/Allegro/cplusplus/weapon.h
+c000000004F45A2330000000000000300
+t1329963571
+s768
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies351816355#351816356#0(0"0(0#1#0"8614867456#0"0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Game.o /Users/Thiago/Documents/Allegro/cplusplus/Game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o /Users/Thiago/Documents/Allegro/cplusplus/Item.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816322.559002
+e351816322.890680
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o
+x/Users/Thiago/Documents/Allegro/cplusplus/Item.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/cplusplus/Item.cpp351816322#351816322#0(0"0(0#0#50"/Users/Thiago/Documents/Allegro/cplusplus/Item.cpp8617569504#1360"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/Item.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/Menus.o /Users/Thiago/Documents/Allegro/cplusplus/Menus.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o /Users/Thiago/Documents/Allegro/cplusplus/armor.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351544943.945894
+e351544944.351713
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o
+x/Users/Thiago/Documents/Allegro/cplusplus/armor.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Thiago/Documents/Allegro/cplusplus/armor.cpp351544943#351544944#0(0"0(0#0#51"/Users/Thiago/Documents/Allegro/cplusplus/armor.cpp8614400544#1362"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/armor.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/createcharactermenu.o /Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351531781.863742
+e351531782.270272
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/createcharactermenu.o
+x/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp351531781#351531782#0(0"0(0#0#65"/Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp8616674432#1390"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/createcharactermenu.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/createcharactermenu.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/display.o /Users/Thiago/Documents/Allegro/cplusplus/display.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351451202.264821
+e351451202.305676
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/display.o
+x/Users/Thiago/Documents/Allegro/cplusplus/display.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/Thiago/Documents/Allegro/cplusplus/display.cpp: In member function 'virtual Display* Display::Show()':
+o/Users/Thiago/Documents/Allegro/cplusplus/display.cpp:14: warning: control reaches end of non-void function
+lSLF07#2@61"Compile /Users/Thiago/Documents/Allegro/cplusplus/display.cpp351451202#351451202#0(218"/Users/Thiago/Documents/Allegro/cplusplus/display.cpp: In member function 'virtual Display* Display::Show()':/Users/Thiago/Documents/Allegro/cplusplus/display.cpp:14: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function351451202#110#108#0(6@53"/Users/Thiago/Documents/Allegro/cplusplus/display.cpp351451191#14#0#14#0#40"control reaches end of non-void function0(0#0#53"/Users/Thiago/Documents/Allegro/cplusplus/display.cpp8621570144#1366"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/display.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/display.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o /Users/Thiago/Documents/Allegro/cplusplus/game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816149.935577
+e351816150.687473
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o
+x/Users/Thiago/Documents/Allegro/cplusplus/game.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/cplusplus/game.cpp351816149#351816150#0(0"0(0#0#50"/Users/Thiago/Documents/Allegro/cplusplus/game.cpp8617000512#1360"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/game.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/cplusplus/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351815659.593043
+e351815660.080619
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+x/Users/Thiago/Documents/Allegro/cplusplus/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/cplusplus/main.cpp351815659#351815660#0(0"0(0#0#50"/Users/Thiago/Documents/Allegro/cplusplus/main.cpp8616449344#1360"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/main.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/mainmenu.o /Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351531781.836859
+e351531782.284279
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/mainmenu.o
+x/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp351531781#351531782#0(0"0(0#0#54"/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp8616717152#1368"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/mainmenu.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/mainmenu.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menu.o /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351529176.871082
+e351529177.229763
+r0
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menu.o
+x/Users/Thiago/Documents/Allegro/cplusplus/menu.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/Thiago/Documents/Allegro/cplusplus/game.h:18,
+o                 from /Users/Thiago/Documents/Allegro/cplusplus/menu.h:16,
+o                 from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp:10:
+o/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h:18: error: expected class-name before '{' token
+oIn file included from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp:10:
+o/Users/Thiago/Documents/Allegro/cplusplus/menu.h:20: error: redefinition of 'class Menu'
+o/Users/Thiago/Documents/Allegro/cplusplus/game.h:45: error: previous definition of 'class Menu'
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp351529176#351529177#0(590"In file included from /Users/Thiago/Documents/Allegro/cplusplus/game.h:18,                 from /Users/Thiago/Documents/Allegro/cplusplus/menu.h:16,                 from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp:10:/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h:18: error: expected class-name before '{' tokenIn file included from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp:10:/Users/Thiago/Documents/Allegro/cplusplus/menu.h:20: error: redefinition of 'class Menu'/Users/Thiago/Documents/Allegro/cplusplus/game.h:45: error: previous definition of 'class Menu'3(4@36"Expected class-name before '{' token351529177#227#101#4(7@72"In file included from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp351529177#18446744073709551615#0#0(6@50"/Users/Thiago/Documents/Allegro/cplusplus/menu.cpp351527825#10#0#10#0#0"0(7@70"In file included from /Users/Thiago/Documents/Allegro/cplusplus/menu.h351529177#18446744073709551615#0#0(6@48"/Users/Thiago/Documents/Allegro/cplusplus/menu.h351529066#16#0#16#0#0"0(7@70"In file included from /Users/Thiago/Documents/Allegro/cplusplus/game.h351529177#18446744073709551615#0#0(6@48"/Users/Thiago/Documents/Allegro/cplusplus/game.h351529146#18#0#18#0#0"0(13@92"Expected class-name before '{' token in /Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h351529177#18446744073709551615#0#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h351529089#18#0#18#0#0"0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/mainmenu.h351529089#18#0#18#0#19"expected * before *0(4@28"Redefinition of 'class Menu'351529177#405#89#2(7@72"In file included from /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp351529177#18446744073709551615#0#0(6@50"/Users/Thiago/Documents/Allegro/cplusplus/menu.cpp351527825#10#0#10#0#0"0(13@80"Redefinition of 'class Menu' in /Users/Thiago/Documents/Allegro/cplusplus/menu.h351529177#18446744073709551615#0#0(6@48"/Users/Thiago/Documents/Allegro/cplusplus/menu.h351529066#20#0#20#0#0"0(6@48"/Users/Thiago/Documents/Allegro/cplusplus/menu.h351529066#20#0#20#0#19"redefinition of '*'0(13@35"Previous definition of 'class Menu'351529177#494#96#0(6@48"/Users/Thiago/Documents/Allegro/cplusplus/game.h351529146#45#0#45#0#0"0(0#0#50"/Users/Thiago/Documents/Allegro/cplusplus/menu.cpp8618416480#1360"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/menu.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menu.o1#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menuoption.o /Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351465228.734353
+e351465229.103269
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menuoption.o
+x/Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp351465228#351465229#0(0"0(0#0#56"/Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp8621510944#1372"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/menuoption.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menuoption.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menus.o /Users/Thiago/Documents/Allegro/cplusplus/menus.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351470995.785125
+e351470995.813219
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menus.o
+x/Users/Thiago/Documents/Allegro/cplusplus/menus.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Thiago/Documents/Allegro/cplusplus/menus.cpp351470995#351470995#0(0"0(0#0#51"/Users/Thiago/Documents/Allegro/cplusplus/menus.cpp8616978944#1362"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/menus.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/menus.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/namecharactermenu.o /Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351531782.270365
+e351531782.663993
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/namecharactermenu.o
+x/Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp351531782#351531782#0(0"0(0#0#63"/Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp8616964480#1386"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/namecharactermenu.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/namecharactermenu.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o /Users/Thiago/Documents/Allegro/cplusplus/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351813959.635795
+e351813960.032988
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o
+x/Users/Thiago/Documents/Allegro/cplusplus/player.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Thiago/Documents/Allegro/cplusplus/player.cpp351813959#351813960#0(0"0(0#0#52"/Users/Thiago/Documents/Allegro/cplusplus/player.cpp8613590976#1364"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/player.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o0#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/untitled.o /Users/Thiago/Documents/Allegro/cplusplus/untitled.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/vendor.o /Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351540004.080819
+e351540004.082174
+r0
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/vendor.o
+x/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540004#351540004#0(1055"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'std::list<Weapon*, std::allocator<Weapon*> > getArmors()':/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:14: error: 'armors' was not declared in this scope/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'std::list<Weapon*, std::allocator<Weapon*> > getWeapons()':/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:19: error: 'weapons' was not declared in this scope/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void addWeapon(Weapon*)':/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:24: error: 'weapons' was not declared in this scope/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void addArmor(Weapon*)':/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:29: error: 'armors' was not declared in this scope/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp: In function 'void sellWeapon(Weapon*)':/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp:34: error: 'weapons' was not declared in this scope5(4@39"'armors' was not declared in this scope351540004#126#104#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540002#14#0#14#0#34"'*' was not declared in this scope0(4@40"'weapons' was not declared in this scope351540004#357#105#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540002#19#0#19#0#34"'*' was not declared in this scope0(4@40"'weapons' was not declared in this scope351540004#555#105#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540002#24#0#24#0#34"'*' was not declared in this scope0(4@39"'armors' was not declared in this scope351540004#752#104#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540002#29#0#29#0#34"'*' was not declared in this scope0(4@40"'weapons' was not declared in this scope351540004#950#105#0(6@52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp351540002#34#0#34#0#34"'*' was not declared in this scope0(0#0#52"/Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp8619436864#1364"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/vendor.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/vendor.o1#
+
+CCompileC build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o /Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351656509.163213
+e351656509.164149
+r1
+xCompileC
+xbuild/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o
+x/Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp351656509#351656509#0(0"0(0#0#52"/Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp8617941504#1364"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -I/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/include -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/cplusplus/weapon.cpp -o /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o0#
+
+CLd /Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus normal x86_64
+s351816322.890775
+e351816322.918361
+r1
+xLd
+x/Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus
+xnormal
+xx86_64
+lSLF07#2@68"Link /Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus351816322#351816322#0(0"0(0#0#0"8617607488#521"    cd /Users/Thiago/Documents/Allegro/cplusplus    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -F/Users/Thiago/Documents/Allegro/cplusplus/build/Debug -filelist /Users/Thiago/Documents/Allegro/cplusplus/build/cplusplus.build/Debug/cplusplus.build/Objects-normal/x86_64/cplusplus.LinkFileList -mmacosx-version-min=10.6 -o /Users/Thiago/Documents/Allegro/cplusplus/build/Debug/cplusplus0#
+

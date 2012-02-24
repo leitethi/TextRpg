@@ -1,0 +1,225 @@
+Tcplusplus
+v7
+r0
+t351816475.097541
+cCheck dependencies
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/TextRpg/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o /Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o /Users/Thiago/Documents/Allegro/TextRpg/armor.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o /Users/Thiago/Documents/Allegro/TextRpg/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o /Users/Thiago/Documents/Allegro/TextRpg/game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o /Users/Thiago/Documents/Allegro/TextRpg/Item.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Users/Thiago/Documents/Allegro/TextRpg/Item.cpp
+c000000004F48126400000000000000A9
+t1330123364
+s169
+i"item.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/Item.h
+c000000004F4813010000000000000161
+t1330123521
+s353
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/armor.cpp
+c000000004F43E25400000000000001DD
+t1329848916
+s477
+i"armor.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/armor.h
+c000000004F43EEE500000000000001D1
+t1329852133
+s465
+i<iostream>
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus
+t1330123667
+s141952
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o
+t1330123667
+s46316
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o
+t1330123666
+s51008
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/cplusplus.LinkFileList
+c000000004F481391000000000000029F
+t1330123665
+s671
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o
+t1330123667
+s294900
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+t1330123666
+s102476
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o
+t1330123666
+s66528
+
+N/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o
+t1330123666
+s54348
+
+N/Users/Thiago/Documents/Allegro/TextRpg/game.cpp
+c000000004F4811620000000000004858
+t1330123106
+s18520
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/game.h
+c000000004F481018000000000000057A
+t1330122776
+s1402
+i<sstream>
+i<iostream>
+i<list>
+i<map>
+i<vector>
+i<time.h>
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/main.cpp
+c000000004F46C78100000000000000F7
+t1330038657
+s247
+i<iostream>
+i<time.h>
+i<list>
+i"game.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/player.cpp
+c000000004F4809A90000000000000AA7
+t1330121129
+s2727
+i"player.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/player.h
+c000000004F46F83000000000000006DF
+t1330051120
+s1759
+i<iostream>
+i"weapon.h"
+i"armor.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp
+c000000004F45A2BB0000000000000471
+t1329963707
+s1137
+i"weapon.h"
+
+N/Users/Thiago/Documents/Allegro/TextRpg/weapon.h
+c000000004F45A2330000000000000300
+t1329963571
+s768
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies351816475#351816475#0(0"0(0#1#0"8613231392#0"0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o /Users/Thiago/Documents/Allegro/TextRpg/Item.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816466.888052
+e351816467.364595
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o
+x/Users/Thiago/Documents/Allegro/TextRpg/Item.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Thiago/Documents/Allegro/TextRpg/Item.cpp351816466#351816467#0(0"0(0#0#48"/Users/Thiago/Documents/Allegro/TextRpg/Item.cpp8613144640#1324"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/Item.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/Item.o0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o /Users/Thiago/Documents/Allegro/TextRpg/armor.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816466.383190
+e351816466.778958
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o
+x/Users/Thiago/Documents/Allegro/TextRpg/armor.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Thiago/Documents/Allegro/TextRpg/armor.cpp351816466#351816466#0(0"0(0#0#49"/Users/Thiago/Documents/Allegro/TextRpg/armor.cpp8617353792#1326"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/armor.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/armor.o0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o /Users/Thiago/Documents/Allegro/TextRpg/game.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816466.779060
+e351816467.611568
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o
+x/Users/Thiago/Documents/Allegro/TextRpg/game.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Thiago/Documents/Allegro/TextRpg/game.cpp351816466#351816467#0(0"0(0#0#48"/Users/Thiago/Documents/Allegro/TextRpg/game.cpp8613805184#1324"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/game.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/game.o0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o /Users/Thiago/Documents/Allegro/TextRpg/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816465.989907
+e351816466.503758
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o
+x/Users/Thiago/Documents/Allegro/TextRpg/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/Thiago/Documents/Allegro/TextRpg/main.cpp351816465#351816466#0(0"0(0#0#48"/Users/Thiago/Documents/Allegro/TextRpg/main.cpp8616469984#1324"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/main.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o /Users/Thiago/Documents/Allegro/TextRpg/player.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816466.503863
+e351816466.887952
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o
+x/Users/Thiago/Documents/Allegro/TextRpg/player.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/TextRpg/player.cpp351816466#351816466#0(0"0(0#0#50"/Users/Thiago/Documents/Allegro/TextRpg/player.cpp8616883584#1328"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/player.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/player.o0#
+
+CCompileC build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o /Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s351816465.996432
+e351816466.383094
+r1
+xCompileC
+xbuild/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o
+x/Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp351816465#351816466#0(0"0(0#0#50"/Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp8613709440#1328"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-generated-files.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-own-target-headers.hmap -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-all-target-headers.hmap -iquote /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/cplusplus-project-headers.hmap -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -I/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/include -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources/x86_64 -I/Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/DerivedSources -c /Users/Thiago/Documents/Allegro/TextRpg/weapon.cpp -o /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/weapon.o0#
+
+CLd /Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus normal x86_64
+s351816467.611701
+e351816467.643114
+r1
+xLd
+x/Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus
+xnormal
+xx86_64
+lSLF07#2@66"Link /Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus351816467#351816467#0(0"0(0#0#0"8616351680#509"    cd /Users/Thiago/Documents/Allegro/TextRpg    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -F/Users/Thiago/Documents/Allegro/TextRpg/build/Debug -filelist /Users/Thiago/Documents/Allegro/TextRpg/build/TextRpg.build/Debug/cplusplus.build/Objects-normal/x86_64/cplusplus.LinkFileList -mmacosx-version-min=10.6 -o /Users/Thiago/Documents/Allegro/TextRpg/build/Debug/cplusplus0#
+
