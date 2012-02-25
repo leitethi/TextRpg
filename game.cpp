@@ -8,6 +8,7 @@
  */
 
 #include "game.h"
+#include "Battle.h"
 
 class MainMenu : public Menu
 {
@@ -148,32 +149,38 @@ protected:
 		while(!isValid)
 		{
 			std::cin >> input;
-			
-			if (input.length() == 1) 
+		
+			for (int i = 0; i < list.size(); i++) 
 			{
-				for (int i = 0; i < list.size(); i++) 
+				if (input == game->intToStr(i))
 				{
-					if (input == game->intToStr(i))
+					if (game->getPlayer()->getGold() >= list[i]->getWorth()) 
 					{
-						if (game->getPlayer()->getGold() >= list[i]->getWorth()) 
-						{
-							game->getPlayer()->setWeapon(list[i]);
-							game->getPlayer()->removeGold(list[i]->getWorth());
+						game->getPlayer()->setWeapon(list[i]);
+						game->getPlayer()->removeGold(list[i]->getWorth());
 						
-							game->setState(Main);
-							Player* p = game->getPlayer();
-							p->setWeapon(list[i]);
-							isValid = true;
-						}
-						else {
-							cout << "You don't have enought funds to buy this weapon" << endl;
-							isValid = false;
-						}
+						game->setState(Main);
+						Player* p = game->getPlayer();
+						p->setWeapon(list[i]);
+						isValid = true;
+						
+						game->setState(Main);
+						
+						cout << "You bought " << list[i]->getName() << " for " << list[i]->getWorth() << " gold" << endl;
+						
+						cout << "Press any key to continue" << endl;
+						
+						cin >> input;
+					}
+					else {
+						cout << "You don't have enought funds to buy this weapon" << endl;
+						isValid = false;
 					}
 				}
 			}
 			
-			cout << "Invalid option" << endl;
+			if(!isValid)
+				cout << "Invalid option" << endl;
 		}
 	}
 };
@@ -210,29 +217,36 @@ protected:
 		{
 			std::cin >> input;
 			
-			if (input.length() == 1) 
+			for (int i = 0; i < list.size(); i++) 
 			{
-				for (int i = 0; i < list.size(); i++) 
+				if (input == game->intToStr(i))
 				{
-					if (input == game->intToStr(i))
+					if (game->getPlayer()->getGold() >= list[i]->getWorth()) 
 					{
-						if (game->getPlayer()->getGold() >= list[i]->getWorth()) 
-						{
-							game->getPlayer()->setArmor(list[i]);
-							game->getPlayer()->removeGold(list[i]->getWorth());
-							
-							game->setState(Main);
-							isValid = true;
-						}
-						else {
-							cout << "You don't have enought funds to buy this weapon" << endl;
-							isValid = false;
-						}
+						game->getPlayer()->setArmor(list[i]);
+						game->getPlayer()->removeGold(list[i]->getWorth());
+						
+						Player* p = game->getPlayer();
+						p->setArmor(list[i]);
+						isValid = true;
+						
+						game->setState(Main);
+						
+						cout << "You bought " << list[i]->getName() << " for " << list[i]->getWorth() << " gold" << endl;
+						
+						cout << "Press any key to continue" << endl;
+						
+						cin >> input;
+					}
+					else {
+						cout << "You don't have enought funds to buy this weapon" << endl;
+						isValid = false;
 					}
 				}
 			}
 			
-			cout << "Invalid option" << endl;
+			if(!isValid)
+				cout << "Invalid option" << endl;
 		}
 	}
 };
@@ -438,7 +452,7 @@ private:
 	bool ended;
 	Armor* armor;
 	Weapon* weapon;
-	Player* winner;
+	Battle* battle;
 	
 	void play(Game * game,int level)
 	{
@@ -474,131 +488,12 @@ private:
 				break;
 		}
 		
-		start();
+		battle = new Battle(player1, player2);
+		battle->Start();
+		
+		delete battle;
 	}
 	
-	void wait ( int seconds )
-	{
-		clock_t endwait;
-		endwait = clock () + seconds * CLOCKS_PER_SEC ;
-		while (clock() < endwait) {}
-	}
-	
-	void turn(Player* attacker, Player* defender)
-	{
-		bool critical = false;
-		
-		if(attacker->getAttackRole() >= defender->getArmorCheck())
-		{			
-			int row = 0;
-			for(int i = 1; i <= attacker->getWeaponDamageMin(); i++)
-			{
-				row += game->rollDice(1, attacker->getWeaponDamageMax(), 1);
-				if (row >= attacker->getWeaponCriticalMin() && row <= attacker->getWeaponCriticalMax())
-				{
-					row *= attacker->getWeaponMultiplier();
-					critical = true;
-				}
-			}
-			
-			int damage = row + attacker->getStrModifier();
-			if(critical)
-				cout << attacker->getName() << " swings his " << attacker->getWeaponName()  << " at his opponent %s and critically hits him for " << damage << " damage!" << endl;
-			else {
-				cout << attacker->getName() << " swings his " << attacker->getWeaponName() << " at " << defender->getName() << " and hits him for " << damage << " damage!" << endl;
-			}
-			
-			defender->TakeDamage(damage);
-		} 
-		else {
-			cout << attacker->getName() << " swings his " << attacker->getWeaponName() << " at his opponent and misses." << endl;
-		}
-	}
-	
-	void declareWinner(Player * win, Player * loose)
-	{
-		int goldReceived = loose->getGold();
-		win->addGold(goldReceived);
-		loose->removeGold(goldReceived);
-		win->restoreLife();
-		
-		int expRequired = (win->getExp() + win->getLevel()) * win->getExp();
-		if (win->getExp() == expRequired)
-		{
-			win->increaseLevel();
-			
-			srand ( time(NULL) );
-			
-			int row = rand() % 10 + 1;
-			int hitPointsReceived = row + win->getConModifier();
-			
-			win->increaseHitPoints(hitPointsReceived);
-		}
-		
-		cout << win->getName() << " receives " << goldReceived << " gold" << endl;
-		
-		FightMenu::winner = win;
-	}
-	
-	bool checkDeadPlayer()
-	{
-		if (!player1->isAlive()) 
-		{
-			cout << "You died!" << endl;
-			declareWinner(player2, player1);
-			
-			return true;
-			
-		} 
-		else if (!player2->isAlive()) 
-		{
-			cout << player2->getName() << "level " << player2->getLevel() << " died!" << endl;
-			
-			declareWinner(player1, player2);
-			
-			return true;
-		}
-		
-		return false;
-	}
-	
-	void start()
-	{
-		if(player1->getInitiative() >= player2->getInitiative())
-		{
-			cout << player1->getName() << " starts the fight and attacks " << player2->getName() << endl;
-			
-			while(player1->isAlive() && player2->isAlive())
-			{
-				turn(player1, player2);
-				if(checkDeadPlayer())
-					break;
-				
-				wait(5);
-				
-				turn(player2, player1);
-				if(checkDeadPlayer())
-					break;
-			}
-		}
-		else 
-		{
-			cout << player2->getName() << " starts the fight and attacks " << player1->getName() << endl;
-
-			while(player1->isAlive() && player2->isAlive())
-			{
-				turn(player2, player1);
-				if(checkDeadPlayer())
-					break;
-				
-				wait(5);
-				
-				turn(player1, player2);
-				if(checkDeadPlayer())
-					break;
-			}
-		}
-	}
 protected:
 	void showOptions(Game* game)
 	{
@@ -638,12 +533,8 @@ protected:
 		}
 		
 		play(game, level);
-		
-		if (FightMenu::winner == player2)
-			game->setState(Main);
-		else {
-			game->setState(Fight);
-		}
+	
+		game->setState(Main);
 
 		cout << "Press any key to continue" << endl;
 		
@@ -768,7 +659,6 @@ void Game::setState(GameState state)
 
 void Game::update()
 {
-	transmitMessage();
 	currentMenu->Show(this);
 }
 	
@@ -783,7 +673,7 @@ void Game::createPlayer(int str, int dex, int con, int hitPoints)
 	Weapon* weapon = new Weapon("Unarmed Strike", 1, 3, 20, 20, 2, 0);
 	
 	Game::player = new Player();
-	player->Init(playerName, 1, str, dex, con, hitPoints, 0, 0);
+	player->Init(playerName, 1, str, dex, con, hitPoints, 0, 5);
 	player->setWeapon(weapon);
 	player->setArmor(armor);
 }
@@ -796,17 +686,6 @@ void Game::erasePlayer()
 Player* Game::getPlayer()
 {
 	return player;
-}
-
-void Game::registerMessage(string message)
-{
-	Game::message = message;
-}
-
-void Game::transmitMessage()
-{
-	cout << message << endl;
-	Game::message = "";
 }
 
 std::vector<Weapon*> Game::getWeapons()
@@ -833,18 +712,6 @@ int Game::strToInt(string str)
 	buffer >> value;
 	
 	return value;
-}
-int Game::rollDice( int numDice, int numSides, int modifier )
-{
-    int roll = 0;
-    for( int i = 0; i < numDice; i++ )
-    {
-        roll += (rand() % numSides) + 1;
-    }
-	
-    roll += modifier;
-	
-    return roll;
 }
 
 // Menu class

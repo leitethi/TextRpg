@@ -18,47 +18,47 @@ Weapon::Weapon(string name, int damageMin, int damageMax, int criticalMin, int c
 }
 
 void Weapon::Init(string name, int damageMin, int damageMax, int criticalMin, int criticalMax, int multiplier, float worth)
-	{
-		Weapon::name = name;
-		Weapon::damageMin = damageMin;
-		Weapon::damageMax = damageMax;
-		Weapon::criticalMin = criticalMin;
-		Weapon::criticalMax = criticalMax;
-		Weapon::multiplier = multiplier;
-		Weapon::worth = worth;
-	}
+{
+	Weapon::name = name;
+	Weapon::damageMin = damageMin;
+	Weapon::damageMax = damageMax;
+	Weapon::criticalMin = criticalMin;
+	Weapon::criticalMax = criticalMax;
+	Weapon::multiplier = multiplier;
+	Weapon::worth = worth;
+}
 	
-	string Weapon::getName()
-	{
-		return name;
-	}
+string Weapon::getName()
+{
+	return name;
+}
 	
-	int Weapon::getDamageMin()
-	{
-		return damageMin;
-	}
+int Weapon::getDamageMin()
+{
+	return damageMin;
+}
 	
-	int Weapon::getDamageMax()
-	{
-		return damageMax;
-	}
+int Weapon::getDamageMax()
+{
+	return damageMax;
+}
 	
-	int Weapon::getCriticalMin()
-	{
-		return criticalMin;
-	}
+int Weapon::getCriticalMin()
+{
+	return criticalMin;
+}
 	
-	int Weapon::getCriticalMax()
-	{
-		return criticalMax;
-	}
+int Weapon::getCriticalMax()
+{
+	return criticalMax;
+}
 	
-	int Weapon::getMultiplier()
-	{
-		return multiplier;
-	}
+int Weapon::getMultiplier()
+{
+	return multiplier;
+}
 	
-	float Weapon::getWorth()
-	{
-		return worth;
-	}
+float Weapon::getWorth()
+{
+	return worth;
+}

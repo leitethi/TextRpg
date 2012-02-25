@@ -17,6 +17,7 @@
 #include <time.h>
 using namespace std;
 
+#include "GLOBALS.h"
 #include "player.h"
 
 #define CLEAR string(50, '\n');
@@ -58,14 +59,10 @@ public:
 	void createPlayerName(std::string name);
 	void createPlayer(int str, int dex, int con, int hitPoints);
 	void erasePlayer();
-	void registerMessage(string message);
-	void transmitMessage();
 	Player* getPlayer();
 	std::vector<Weapon*> getWeapons();
 	std::vector<Armor*> getArmors();
 	string intToStr(int);
 	int strToInt(std::string);
-	int rollDice(int dices, int sides, int modifier);
-	
 };
 #endif

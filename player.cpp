@@ -89,15 +89,6 @@ string Player::getArmorName()
 {
 	return armor->getName();
 }
-	
-int Player::getInitiative()
-{
-	srand ( time(NULL) );
-	
-	int row = rand() % 10 + 1;
-	
-	return row + getDexModifier();
-}
 
 int Player::getStrModifier()
 {
@@ -113,18 +104,10 @@ int Player::getConModifier()
 {
 	return (constitution - 10) /2;
 }
-	
-int Player::getArmorCheck()
+
+int Player::getArmor()
 {
-	return armor->getValue() + 10 + getDexModifier();
-}
-	
-int Player::getAttackRole()
-{
-	srand ( time(NULL) );
-	
-	int row = rand() % 20 + 1;
-	return row + level + getStrModifier();
+	return armor->getValue();
 }
 	
 int Player::getWeaponDamageMin()

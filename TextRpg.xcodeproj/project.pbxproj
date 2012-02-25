@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		AFAEA8D414F848FB00C61FCE /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA8D314F848FB00C61FCE /* Item.cpp */; };
-		AFB45E9014F2F16500455B93 /* weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E8F14F2F16500455B93 /* weapon.cpp */; };
-		AFB45E9314F2F1B600455B93 /* armor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E9214F2F1B600455B93 /* armor.cpp */; };
-		AFB45E9614F2F21100455B93 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E9514F2F21100455B93 /* player.cpp */; };
-		AFB45F0914F3030400455B93 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45F0814F3030400455B93 /* game.cpp */; };
+		AFAEA93514F871BC00C61FCE /* GameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA93414F871BC00C61FCE /* GameEntity.cpp */; };
+		AFAEA94414F873F300C61FCE /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA94314F873F300C61FCE /* Battle.cpp */; };
+		AFAEA9C114F8809400C61FCE /* Container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAEA9C014F8809400C61FCE /* Container.cpp */; };
+		AFB45E9014F2F16500455B93 /* Weapon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E8F14F2F16500455B93 /* Weapon.cpp */; };
+		AFB45E9314F2F1B600455B93 /* Armor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E9214F2F1B600455B93 /* Armor.cpp */; };
+		AFB45E9614F2F21100455B93 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45E9514F2F21100455B93 /* Player.cpp */; };
+		AFB45F0914F3030400455B93 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFB45F0814F3030400455B93 /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,14 +36,20 @@
 		AFAEA8D214F848FB00C61FCE /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
 		AFAEA8D314F848FB00C61FCE /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
 		AFAEA8DA14F84A1400C61FCE /* GLOBALS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLOBALS.h; sourceTree = "<group>"; };
-		AFB45E8E14F2F16500455B93 /* weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weapon.h; sourceTree = "<group>"; };
-		AFB45E8F14F2F16500455B93 /* weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weapon.cpp; sourceTree = "<group>"; };
-		AFB45E9114F2F1B600455B93 /* armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = armor.h; sourceTree = "<group>"; };
-		AFB45E9214F2F1B600455B93 /* armor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = armor.cpp; sourceTree = "<group>"; };
-		AFB45E9414F2F21100455B93 /* player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
-		AFB45E9514F2F21100455B93 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
-		AFB45F0714F3030400455B93 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
-		AFB45F0814F3030400455B93 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		AFAEA93314F871BC00C61FCE /* GameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEntity.h; sourceTree = "<group>"; };
+		AFAEA93414F871BC00C61FCE /* GameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEntity.cpp; sourceTree = "<group>"; };
+		AFAEA94214F873F300C61FCE /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = "<group>"; };
+		AFAEA94314F873F300C61FCE /* Battle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battle.cpp; sourceTree = "<group>"; };
+		AFAEA9BF14F8809400C61FCE /* Container.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container.h; sourceTree = "<group>"; };
+		AFAEA9C014F8809400C61FCE /* Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Container.cpp; sourceTree = "<group>"; };
+		AFB45E8E14F2F16500455B93 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		AFB45E8F14F2F16500455B93 /* Weapon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Weapon.cpp; sourceTree = "<group>"; };
+		AFB45E9114F2F1B600455B93 /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		AFB45E9214F2F1B600455B93 /* Armor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Armor.cpp; sourceTree = "<group>"; };
+		AFB45E9414F2F21100455B93 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		AFB45E9514F2F21100455B93 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		AFB45F0714F3030400455B93 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AFB45F0814F3030400455B93 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		C6859E8B029090EE04C91782 /* cplusplus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cplusplus.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,16 +79,22 @@
 			children = (
 				AFAEA8DA14F84A1400C61FCE /* GLOBALS.h */,
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
-				AFB45E8E14F2F16500455B93 /* weapon.h */,
-				AFB45E8F14F2F16500455B93 /* weapon.cpp */,
-				AFB45E9114F2F1B600455B93 /* armor.h */,
-				AFB45E9214F2F1B600455B93 /* armor.cpp */,
-				AFB45E9414F2F21100455B93 /* player.h */,
-				AFB45E9514F2F21100455B93 /* player.cpp */,
-				AFB45F0714F3030400455B93 /* game.h */,
-				AFB45F0814F3030400455B93 /* game.cpp */,
+				AFB45E8E14F2F16500455B93 /* Weapon.h */,
+				AFB45E8F14F2F16500455B93 /* Weapon.cpp */,
+				AFB45E9114F2F1B600455B93 /* Armor.h */,
+				AFB45E9214F2F1B600455B93 /* Armor.cpp */,
+				AFB45E9414F2F21100455B93 /* Player.h */,
+				AFB45E9514F2F21100455B93 /* Player.cpp */,
+				AFB45F0714F3030400455B93 /* Game.h */,
+				AFB45F0814F3030400455B93 /* Game.cpp */,
 				AFAEA8D214F848FB00C61FCE /* Item.h */,
 				AFAEA8D314F848FB00C61FCE /* Item.cpp */,
+				AFAEA93314F871BC00C61FCE /* GameEntity.h */,
+				AFAEA93414F871BC00C61FCE /* GameEntity.cpp */,
+				AFAEA94214F873F300C61FCE /* Battle.h */,
+				AFAEA94314F873F300C61FCE /* Battle.cpp */,
+				AFAEA9BF14F8809400C61FCE /* Container.h */,
+				AFAEA9C014F8809400C61FCE /* Container.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -151,11 +166,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
-				AFB45E9014F2F16500455B93 /* weapon.cpp in Sources */,
-				AFB45E9314F2F1B600455B93 /* armor.cpp in Sources */,
-				AFB45E9614F2F21100455B93 /* player.cpp in Sources */,
-				AFB45F0914F3030400455B93 /* game.cpp in Sources */,
+				AFB45E9014F2F16500455B93 /* Weapon.cpp in Sources */,
+				AFB45E9314F2F1B600455B93 /* Armor.cpp in Sources */,
+				AFB45E9614F2F21100455B93 /* Player.cpp in Sources */,
+				AFB45F0914F3030400455B93 /* Game.cpp in Sources */,
 				AFAEA8D414F848FB00C61FCE /* Item.cpp in Sources */,
+				AFAEA93514F871BC00C61FCE /* GameEntity.cpp in Sources */,
+				AFAEA94414F873F300C61FCE /* Battle.cpp in Sources */,
+				AFAEA9C114F8809400C61FCE /* Container.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

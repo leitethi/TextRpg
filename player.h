@@ -46,14 +46,12 @@ public:
 	string getWeaponName();
 	void setArmor(Armor* armor);
 	string getArmorName();
-	int getInitiative();
 	int getStrModifier();
 	int getDexModifier();
 	int getConModifier();
 	int getMaxHitPoints();
 	int getCurrentHitPoints();
-	int getArmorCheck();
-	int getAttackRole();
+	int getArmor();
 	int getWeaponDamageMin();
 	int getWeaponDamageMax();
 	int getWeaponCriticalMin();
